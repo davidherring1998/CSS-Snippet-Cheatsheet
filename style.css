@@ -1,0 +1,467 @@
+* {
+  background-color: #2f333f;
+}
+/* header  */
+
+.head-main {
+  text-align: center;
+}
+
+.head-main h1 {
+  color: rgba(232, 102, 236, 0.6);
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.head-main p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+/* container one  */
+.container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+/* main boxes 1-3 */
+/* main boxes 1-3 */
+/* main boxes 1-3 */
+
+.card-1 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 350px;
+  margin-left: 5%;
+}
+
+.card-1:hover {
+  border: 5px solid white;
+}
+
+.card-2 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 350px;
+}
+
+.card-2:hover {
+  border: 5px solid white;
+}
+
+.card-3 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 350px;
+  margin-right: 5%;
+}
+
+.card-3:hover {
+  border: 5px solid white;
+}
+
+/* card styling 1-3 */
+.card-1-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-1-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  justify-content: center;
+  line-height: 20px;
+}
+
+/* description styling  */
+.desc1 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-1 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-1 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 20%;
+}
+
+.code-1:hover {
+  transform: scale(1.1);
+}
+
+.card-2-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-2-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  justify-content: center;
+  line-height: 20px;
+}
+
+/* description styling  */
+.desc2 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-2 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-2 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 20%;
+}
+
+.code-2:hover {
+  transform: scale(1.1);
+}
+
+.card-3-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-3-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  line-height: 20px;
+}
+
+/* description styling  */
+.desc3 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-3 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 200px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-3 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 15%;
+}
+
+.code-3:hover {
+  transform: scale(1.1);
+}
+
+/*  row two container */
+.container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.card-12 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+.card-12:hover {
+  border: 5px solid white;
+}
+
+/* card styling 1-3 */
+.card-12-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-12-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  justify-content: center;
+  line-height: 20px;
+}
+
+/* description styling  */
+.desc12 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-12 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 350px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-12 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 20%;
+}
+
+.code-12:hover {
+  transform: scale(1.1);
+}
+
+/* card 2 */
+.card-22 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 500px;
+  margin-top: 60px;
+}
+
+.card-22:hover {
+  border: 5px solid white;
+}
+
+/* card styling 1-3 */
+.card-22-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-22-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  justify-content: center;
+  line-height: 20px;
+}
+
+/* description styling  */
+.desc22 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-22 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 350px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-22 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 6%;
+}
+
+.code-22:hover {
+  transform: scale(1.1);
+}
+
+.card-32 {
+  border: 2px dashed white;
+  width: 600px;
+  height: 500px;
+  margin-right: 5%;
+  margin-top: 60px;
+}
+
+.card-32:hover {
+  border: 5px solid white;
+}
+
+/* card 3 */
+/* card styling 1-3 */
+.card-32-title {
+  display: flex;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 30px;
+}
+.card-32-title h2 {
+  display: flex;
+  color: rgba(232, 102, 236, 0.6);
+  position: relative;
+  bottom: 28%;
+  left: 5%;
+  justify-content: center;
+}
+
+/* description styling  */
+.desc32 {
+  color: rgba(232, 102, 236, 0.6);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+
+/* inside code box  */
+.code-box-32 {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border: 5px sold white;
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  position: relative;
+  left: 5%;
+  bottom: 2.5%;
+}
+
+/* code inside of code box */
+.code-32 {
+  background: none;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  left: 5%;
+  top: 40%;
+}
+
+.code-32:hover {
+  transform: scale(1.1);
+}

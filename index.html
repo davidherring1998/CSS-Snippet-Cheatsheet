@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="head-main">
+      <h1>CSS Snippet Cheatsheet</h1>
+      <p>
+        Ever have trouble recalling the exact syntax for your favorite CSS code?
+        Give it a permanent home and add it to this page! Select any snippet
+        below and it'll automatically select all of the code for you to copy.
+      </p>
+    </div>
+    <!-- first flexbox row container -->
+    <div class="container-one">
+      <!-- first card  -->
+      <div class="card-1">
+        <!-- card one title -->
+        <div class="card-1-title"><h2>Flexbox Row</h2></div>
+
+        <!-- description one -->
+        <div class="desc1">
+          <p>Use these three properties to create a Flexbox row layout.</p>
+        </div>
+
+        <!-- code box -->
+        <div class="code-box-1">
+          <!-- code one -->
+          <div class="code-1">
+            <!-- <code> -->
+            .row { <br />
+            &nbsp; &nbsp; display: flex; <br />
+            &nbsp; &nbsp; flex-direction: row; <br />
+            &nbsp; &nbsp; flex-wrap: wrap; <br />
+            }
+            <!-- }
+            </code> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- second card  -->
+      <div class="card-2">
+        <!-- card two title -->
+        <div class="card-2-title"><h2>Flexbox Column</h2></div>
+
+        <!-- description two -->
+        <div class="desc2">
+          <p>Use this to create a Flexbox column layout.</p>
+        </div>
+
+        <!-- code box 2 -->
+        <div class="code-box-2">
+          <!-- code two-->
+          <div class="code-2">
+            .column { <br />
+            &nbsp; &nbsp; display: flex; <br />
+            &nbsp; &nbsp; flex-direction: column; <br />
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- third card  -->
+      <div class="card-3">
+        <!-- card three title -->
+        <div class="card-3-title"><h2>CSS grid layout</h2></div>
+
+        <!-- description three -->
+        <div class="desc3">
+          <p>Build a 12-column layout using CSS Grid.</p>
+        </div>
+
+        <!-- code box 3 -->
+        <div class="code-box-3">
+          <!-- code three -->
+          <div class="code-3">
+            .grid { <br />
+            &nbsp; &nbsp; display: grid; <br />
+            &nbsp; &nbsp; width: 100%; <br />
+            &nbsp; &nbsp; grid-template-columns: <br />
+            repeat(12, 1fr); <br />
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  second row -->
+    <!-- second flexbox row container -->
+    <div class="container-two">
+      <!-- first card  -->
+      <div class="card-12">
+        <!-- card one title -->
+        <div class="card-1-title"><h2>Linear Gradients</h2></div>
+
+        <!-- description one -->
+        <div class="desc12">
+          <p>
+            This will create a background linear gradient from top to bottom.
+          </p>
+        </div>
+
+        <!-- code box -->
+        <div class="code-box-12">
+          <!-- code one -->
+          <div class="code-12">
+            .linear-gradient-background { <br />
+            &nbsp; &nbsp; background-image: linear- <br />
+            gradient( <br />
+            &nbsp;&nbsp; rgba(232, 102, 236, 0.3) 0%, <br />
+            &nbsp;&nbsp; rgba(232, 102, 236, 0.6) 100% <br />
+            &nbsp;&nbsp; ); <br />
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- second card  -->
+      <div class="card-22">
+        <!-- card two title -->
+        <div class="card-22-title"><h2>Box Transition Glow</h2></div>
+
+        <!-- description two -->
+        <div class="desc22">
+          <p>Use transition and box shadows to glow on hover.</p>
+        </div>
+
+        <!-- code box 2 -->
+        <div class="code-box-22">
+          <!-- code two-->
+          <div class="code-22">
+            .code-card .card-header { <br />
+            &nbsp;&nbsp; border-radius: 8px; <br />
+            &nbsp;&nbsp; transition: all 0.5s ease-in- <br />
+            out; <br />
+            } <br />
+            <br />
+            .code-card:hover,<br />
+            .code-card:hover .card-header { <br />
+            &nbsp;&nbsp;box-shadow: inset 0px 0px 8px <br />
+            rgba(232, 102, 236, 1), 0 0 15px <br />
+            rgba(232, 102, 236, 1); <br />
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- third card  -->
+      <div class="card-32">
+        <!-- card three title -->
+        <div class="card-32-title"><h2>Overlay Card with Title</h2></div>
+
+        <!-- description three -->
+        <div class="desc32">
+          <p>
+            Use position properties and negative margins to raise elements
+            higher than their natural starting point.
+          </p>
+        </div>
+
+        <!-- code box 3 -->
+        <div class="code-box-32">
+          <!-- code three -->
+          <div class="code-32">
+            .card-header { <br />
+            &nbsp;&nbsp;position: relative;<br />
+            &nbsp;&nbsp; margin-top: -20px;<br />
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
